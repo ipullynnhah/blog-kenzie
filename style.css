@@ -3,13 +3,15 @@
 body {
   font-size: 0.95rem;
   line-height: 1.4;
-  background-color: #e0e0eb;
+  color: #001733;
+  background-color: #c6d7ec;
   font-family: "Roboto", sans-serif;
 }
 
 /********************************** HEADER **********************************/
-header {
-  background-color: #fafafa;
+header,
+footer {
+  background-color: #fff;
   text-align: center;
   padding: 10px 0;
 }
@@ -25,14 +27,20 @@ h1 {
 }
 
 /******************************** BLOG POST *********************************/
+main {
+  padding: 20px 0;
+}
 
-article {
+.card {
   margin: 15px 30px;
   padding: 20px 10px 10px;
 
-  border-radius: 5px;
-  background-color: #fafafa;
+  border-radius: 15px;
   box-shadow: 0 1px 3px rgba(0 0 0 / 0.12);
+}
+
+article {
+  background-color: #fafcff;
 }
 
 h2 {
@@ -56,5 +64,37 @@ a {
   font-size: 0.8rem;
   text-decoration: underline;
 
-  margin-top: 15px;
+  margin-top: 10px;
+}
+
+/*********************************** FORM ***********************************/
+
+form {
+  color: #fafafa;
+  background-color: #3590ff;
+  border: 4px solid #001733;
+}
+
+label {
+  font-weight: 700;
+}
+
+input {
+  height: 30px;
+  color: #001733;
+  background-color: #fafafa;
+
+  text-align: left;
+  padding: 0 4px;
+
+  border-radius: 5px;
+  border: 2px solid #001733;
+}
+
+button {
+  height: 30px;
+  padding: 0 15px;
+
+  background-color: #001733;
+  border-radius: 5px;
 }
