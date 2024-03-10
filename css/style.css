@@ -57,8 +57,9 @@ h2 {
 }
 
 a {
+  width: fit-content;
   display: block;
-  text-align: end;
+  margin-left: auto;
 
   color: #3590ff;
   font-size: 0.8rem;
