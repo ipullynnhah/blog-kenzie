@@ -1,12 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap");
 
 body {
-  background-color: #e2ecf6;
+  font-size: 0.95rem;
+  line-height: 1.4;
+  background-color: #e0e0eb;
   font-family: "Roboto", sans-serif;
 }
 
+/********************************** HEADER **********************************/
 header {
-  background-color: #fff;
+  background-color: #fafafa;
   text-align: center;
   padding: 10px 0;
 }
@@ -17,7 +20,41 @@ img {
 
 h1 {
   font-weight: 700;
-  font-size: 26px;
+  font-size: 1.6rem;
   margin-top: 10px;
 }
 
+/******************************** BLOG POST *********************************/
+
+article {
+  margin: 15px 30px;
+  padding: 20px 10px 10px;
+
+  border-radius: 5px;
+  background-color: #fafafa;
+  box-shadow: 0 1px 3px rgba(0 0 0 / 0.12);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 1.15rem;
+}
+
+.post-text {
+  margin: 20px 0;
+}
+
+.author {
+  font-style: italic;
+}
+
+a {
+  display: block;
+  text-align: end;
+
+  color: #3590ff;
+  font-size: 0.8rem;
+  text-decoration: underline;
+
+  margin-top: 15px;
+}
