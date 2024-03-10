@@ -98,3 +98,22 @@ button {
   background-color: #001733;
   border-radius: 5px;
 }
+
+/******************************* EXTRA: HOVER *******************************/
+a {
+  transition: color 300ms;
+}
+
+a:hover {
+  color: #001733;
+}
+
+button {
+  cursor: pointer;
+  transition: opacity 300ms;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
